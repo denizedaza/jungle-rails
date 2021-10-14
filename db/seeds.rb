@@ -120,7 +120,7 @@ cat3.products.create!({
   name:  'Electric Chair',
   description: Faker::Hipster.paragraph(4),
   image: open_asset('furniture2.jpg'),
-  quantity: 0,
+  quantity: 2,
   price: 987.65
 })
 
